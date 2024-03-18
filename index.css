@@ -1,0 +1,68 @@
+body{
+    background-image: url(danda\ 2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% ;
+}
+
+.logo span{
+    color: rgb(238,56,11);
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+ul{
+    list-style: none;
+    float: right;
+    display: flex;
+    margin-top: 20px;
+}
+ul li a{
+    text-decoration: none;
+    color: aliceblue;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    margin: 10px;
+    font-weight: 500;
+    transition: 0,6 ease;
+}
+
+ul li a:hover{
+    background: aliceblue;
+   color: black;
+}
+
+.title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.title h1{
+    color: aliceblue;
+    font-size: 50px;
+}
+
+.bouton{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.bouton a{
+    color: aliceblue;
+    text-decoration: none;
+    border: 1px solid aliceblue;
+    padding: 10px 20px;
+}
+
+.btn{
+    transition: 0,6 ease;
+}
+.btn :hover{
+background-color: aliceblue;
+color: black;
+}
+

@@ -1,0 +1,56 @@
+
+body{
+    background-image: url(la\ mer.jpeg);
+   background-repeat: no-repeat;
+   background-size: 300%;
+}
+ 
+#MAKHOU{
+    font-weight: bolder;
+    
+}
+#matar{
+    font-weight: bolder;
+}
+#diop{
+    font-weight: bolder;
+
+}
+#ibnou{
+    font-weight: bolder;
+}
+p{
+    font-style: italic;
+
+}
+.boy{
+    margin-right: 2px;
+    height: 300;
+    width: 200;
+}
+
+#khadim{ 
+    font-weight: bolder;
+}
+
+ul{
+    list-style: none;
+    float: right;
+    display: flex;
+    margin-top: 20px;
+}
+ul li a{
+    text-decoration: none;
+    color: aliceblue;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    margin: 10px;
+    font-weight: 500;
+    transition: 0,6 ease;
+}
+
+ul li a:hover{
+    background: aliceblue;
+   color: black;
+}
